@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('gilroy-font/Gilroy-FREE/Gilroy-Light.otf') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'gilroy';
+    width: 1440px;
+    margin: 0px;
+}
+
+.inputbox{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 48.84px;
+   border: 0.2px solid rgba(70, 113, 198, 0.65);
+   border-radius: 7px;
+   background-color:#0F2D6B;
+   margin-top: 5px;
+}
+
+
+.container{
+
+    /* width: 1440px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px auto;
+}
+.input{
+    height: 17px;
+    width: 266px;
+    border: none;
+    outline: none;
+   background-color: #0F2D6B;
+   font-size: 14px;
+   
+    
+}
+
+.textarea2{
+
+
+}
+
+.bottom-button{
+
+  width: 350px;
+  height: 48.84px;
+  background-color: #0F2D6B;
+ border: 0.3px solid rgba(70, 113, 198, 0.65);
+  border-radius: 7px;
+  margin-top: 8px;
+
+}
+
+
+button{
+
+    height: 45.2px;
+    width: 350px;
+    background-color: #1A4FBA;
+    margin-top: 80px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+
+.linearea{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.imagebox{
+
+    width: 60%;
+
+}
+
+.imagebox img{
+    
+    height: 1024px;
+    width: 100%;
+    /* width: 859px; */
+}
+
+.bluepart{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    width: 40%;
+    /* margin: 0px auto; */
+    background-color: #002062;
+    /* padding: 10px 100px 10px 1/px; */
+    /* padding-left: 100px; */
+}
+
+.text{
+
+    margin: 50px 110px;
+}
+
+.logo{
+
+    width: 419px;
+    margin: 20px 66px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.textarea1{
+    width: auto;
+}
+
+h3{
+
+    /* margin-left: 110px; */
+    /* margin-right: 110px; */
+    margin: 0px 85px;
+    width: 402px;
+    height: 20px;
+    color: white;
+    text-align: center;
+}
+.innerlogo{
+    text-align: center;
+    margin: 14px 20px 10px 85px;
+}
+
+hr{
+
+    flex: 1;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+.linearea-text{
+
+    margin: 30px 7px;
+    color: gray;
+}
+
+h3{
+
+    fo
+}
