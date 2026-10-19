@@ -8,9 +8,10 @@
 
 body{
     font-family: 'gilroy';
-    /* height: 8000px; */
+    /* height: 930px; */
     width: 1440px;
     margin: 0px;
+    padding: 0px;
 }
 
 .inputbox{
@@ -27,15 +28,11 @@ body{
 
 
 .container{
-
-    /* width: 1440px; */
-    height: 800px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
     margin: 0px auto;
-    /* height: 1024px; */
-    object-fit: contain;
 }
 .input{
     height: 17px;
@@ -89,20 +86,22 @@ button{
 .imagebox{
 
     width: 60%;
+    height: 100%;
 
 }
 
 .imagebox img{
     
-    height: 1024px;
-    /* width: 100%; */
+    /* height: 1024px; */
+    width: 100%;
     /* width: 859px; */
+    height: 100%;
 }
 
 .bluepart{
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: 100%;
     /* justify-content: center; */
     /* text-align: center; */
     width: 40%;
