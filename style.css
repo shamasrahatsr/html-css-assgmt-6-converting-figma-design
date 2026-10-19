@@ -8,6 +8,7 @@
 
 body{
     font-family: 'gilroy';
+    /* height: 8000px; */
     width: 1440px;
     margin: 0px;
 }
@@ -28,10 +29,13 @@ body{
 .container{
 
     /* width: 1440px; */
+    height: 800px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
     margin: 0px auto;
+    /* height: 1024px; */
+    object-fit: contain;
 }
 .input{
     height: 17px;
@@ -91,13 +95,14 @@ button{
 .imagebox img{
     
     height: 1024px;
-    width: 100%;
+    /* width: 100%; */
     /* width: 859px; */
 }
 
 .bluepart{
     display: flex;
     flex-direction: column;
+    height: 900px;
     /* justify-content: center; */
     /* text-align: center; */
     width: 40%;
@@ -151,8 +156,27 @@ hr{
     margin: 30px 7px;
     color: gray;
 }
+.textbelowinput{
+    width: 100%;
+    text-align: right;
+    color: white;
 
-h3{
+    
+}
 
-    fo
+.lasttext-box{
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.lasttext-white{
+
+    color: white;
+}
+
+.lasttext-blue{
+
+    color: #4671C6;
 }
