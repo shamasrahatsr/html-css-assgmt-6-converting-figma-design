@@ -136,15 +136,16 @@ button{
     width: auto;
     display: flex;
     flex-direction: column;
-    margin: 0px auto;
+    margin-top: 40px;
     align-items: center;
-
 }
 
 h1{
 
     height: 20px;
-    font-size: 25px;
+    font-size: 35px;
+    margin: 20px 0px;
+    margin-bottom: 40px;
     color: white;
 }
 .innerlogo{
@@ -189,4 +190,21 @@ hr{
 
     color: #4671C6;
     text-decoration: none;
+}
+
+.pw-icon{
+
+    margin-left: 22px;
+}
+
+
+.name-icon{
+
+
+    /* margin-left: 18px; */
+}
+
+.eye-icon{
+
+    margin-right: 10px;
 }
